@@ -22,6 +22,7 @@
   --clr-neutral-400: hsla(0, 0%, 40%, 1);
   --clr-neutral-500: hsla(0, 0%, 60%, 1);
   --clr-neutral-900: hsla(0, 0%, 10%, 1);
+  --logo-color: var(--clr-neutral-900);
 }
 
 @media (min-width: 35em) {
@@ -231,6 +232,13 @@ section,
   color: var(--clr-neutral-100);
   background-color: var(--clr-primary-500);
   text-align: center;
+}
+
+.logo-link {
+  color: var(--logo-color);
+  text-decoration: none;
+  font-size: var(--fs-600);
+  font-weight: var(--fw-900);
 }
 
 /* //////////////////////
